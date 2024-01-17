@@ -14,6 +14,7 @@ body {
     background-size: 400% 400%;
     background-attachment: fixed;
 
+
 }
 
 @keyframes gradient {
@@ -109,6 +110,7 @@ nav {
     background-color: #34495e00;
     border-radius: 8px;
     font-size: 0;
+    padding: 60px;
 }
 
 nav a {
