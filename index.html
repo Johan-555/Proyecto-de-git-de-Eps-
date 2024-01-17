@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Medicura: Descubre una atención médica de excelencia en nuestra EPS.
+   Tu bienestar es nuestra prioridad. ¡Bienvenido a un mundo de cuidado y cobertura médica!">
+  <meta name="lenguage" content="ES">
+  <meta name="keywords" content="EPS MEDICURA">
+  <meta name="author" content="Johan">
+  <meta name="copyright" content="Copyright © 2023 Johan">
+  <meta name="revision" content="Jueves, 21 de octubre de 2023">
+  <meta name="robots" content="index">
+  <title>EPS MediCura</title>
+  <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+  <link rel="icon" href="images/Medicura.png">
+</head>
+
+<body>
+
+
+  <section id="cabeza" class="flex-container">
+    <article class="caja"><img id="logo" class="fila" src="images/Medicura.png" alt="logo">
+    </article>
+    <article class="caja">
+      <section class="search">
+        <article class="search-box">
+          <article class="search-field">
+            <input placeholder="Search..." class="input" type="text">
+            <article class="search-box-icon">
+              <button class="btn-icon-content">
+                <i class="search-icon">
+                  <svg xmlns="://www.w3.org/2000/svg" version="1.1" viewBox="0 0 512 512">
+                    <path
+                      d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
+                      fill="#fff"></path>
+                  </svg>
+                </i>
+              </button>
+            </article>
+          </article>
+        </article>
+      </section>
+    </article>
+    <article class="caja"><a href="button.html"><button type="button" class="botonMenu"><img class="buttonH"
+            src="images/iniciar-sesion.png" alt="Acceso"></button></a></article>
+  </section>
+
+  <section class="container-cookies">          
+    <dialog open="" id="modal">
+        <article class="cookies1">
+            <h2>Este sitio utiliza Cookies para navegar</h2>
+            <p>Usamos cookies para ofrecerte la mejor experiencia en nuestro sitio.
+              Aceptando, estás de acuerdo con nuestra política de uso y cookies.
+              Puedes cambiarla en las preferencias cuando quieras.</p>
+
+            <a href="terminos y condiciones.html">Consulta los Terminos y condiciones</a>
+            <button class="btn" onclick="window.modal.close();">Aceptar</button> 
+        </article> 
+    </dialog> 
+  </section>
+
+  <nav>
+    <a href="afiliados.html">Afiliados</a>
+    <a href="empleadores.html">Empleadores</a>
+    <a href="proveedores.html">Proveedores</a>
+    <a href="Medicamentos.html">Medicamentos</a>
+    <a href="contáctenos.html">Contáctenos</a>
+    <article class="animation start-home"></article>
+  </nav>
+
+
+
+  <section class="slider">
+    <ul>
+      <li><img src="images/1.png" alt="1"></li>
+      <li><img src="images/2.png" alt="2"></li>
+      <li><img src="images/3.png" alt="3"></li>
+      <li><img src="images/4.png" alt="4"></li>
+      <li><img src="images/5.png" alt="5"></li>
+    </ul>
+  </section>
+
+  <body>
+    <section>
+      <article class="wave">
+      </article>
+      <article class="wave">
+      </article>
+      <article class="wave">
+      </article>
+    </section>
+  </body>
+
+
+  <section id="servicios">
+    <section>
+      <h2>Nuestros Servicios</h2>
+      <ul>
+        <li><a class="active" href="#">Atención médica de calidad</a>
+        <li><a class="active" href="#">Programas de prevención</a>
+        <li><a class="active" href="#">Acceso a especialistas</a>
+      </ul>
+    </section>
+
+    <hr>
+    <section>
+      <center>
+        <h2><label for="miMenu"><b>
+              <p>Consulte el listado de la EPS vigentes:</p>
+            </b></label></h2>
+        <select id="Mi menu" name="Mi menu">
+          <option value="option 1">Régimen contributivo</option>
+          <option value="option 2">Régimen Subsidiado</option>
+          <option value="option 3">Decreto de afiliación</option>
+          <option value="option 4">Afiliación de oficio</option>
+          <option value="option 5">Movilidad</option>
+          <option value="option 6">Reporte listados censales</option>
+          <option value="option 7">Asignación EPS</option>
+          <option value="option 8">Poblaciones especiales</option>
+          <option value="option 9">Directorio asistencia técnica por Departamentos</option>
+          <option value="option 10">Portabilidad</option>
+        </select>
+      </center>
+    </section>
+    </hr>
+
+    <hr>
+    <section align="right">
+      <article id="afiliados"></article>
+      </hr>
+      <center>
+        <h2>Para Afiliados</h2>
+      </center>
+      <p>Acceda a su historial médico, haga citas en línea y más.</p>
+      <center><a href="afiliados.html">Ingresar como Afiliado</a></center>
+    </section>
+  </section>
+
+
+  <section id="cards" class="flex-container2">
+
+    <article>
+      <h2>Citas médicas</h2>
+      <p>Tus citas de medicina general o con especialistas</p>
+      <center><img class="doctor" src="images/doctor.png" alt="doctor"></center>
+    </article>
+
+
+    <article>
+      <h2>Declaraciones</h2>
+      <p>En línea las autorizaciones de tus medicamentos</p>
+      <center><img class="consulta" src="images/consulta.png" alt="consulta"></center>
+    </article>
+
+
+    <article>
+      <h2>Descarga tu certificado</h2>
+      <p>Tu certificado de afiliación a Compensar EPS</p>
+      <center><img class="certificado" src="images/prescripcion-medica.png" alt="certificado"></center>
+    </article>
+
+  </section>
+
+
+  <section class="parallax">
+    <h1 id="x">Red de Farmacias</h1>
+    <p id="L"><b>Conoce nuestra Red de farmacia y consulta tu centro de atención más cercano.</b></p>
+  </section>
+
+  <h1>Nuestros  Aliados</h1>
+  <section class="content flex-container3">
+    <article><img id="aliados" src="images/pfizer.png"></article>
+    <article><img id="aliados" src="images/johnson.png"></article>
+    <article><img id="aliados" src="images/moderna.png"></article>
+    <article><img id="aliados" src="images/Astrazeneca.png"></article>
+    <article><img id="aliados" src="images/Sinovac.png"></article>
+  </section>
+
+  <audio autoplay loop>
+    <source src="" type="audio/ogg">
+    <source src="" type="audio/mpeg"> 
+  </audio>
+
+  <section class="seccion-medicina">
+    <section>
+      <img src="images/Medicura.png" width="100" height="70">
+      <h2>LÍNEAS DE SERVICIO AL CLIENTE</h2>
+      <p>Si tiene alguna pregunta o necesita asistencia, contáctenos:</p>
+      <address>
+        <p>Teléfono: 123-456-789</p>
+        <p>Email: info@MediCura.com</p>
+      </address>
+    </section>
+
+    <hr id="z">
+    <section>
+      <h2>NORMATIVIDAD</h2>
+      <p><br>Normas, leyes y decretos de salud</br>
+        <br>Informe Min trabajo COPASST</br>
+        <br>Vigilancia en salud pública</br>
+        <br>Mapa del Sitio</br>
+      </p>
+    </section>
+    </hr>
+
+    <section>
+      <h2>SÍGUENOS</h2>
+      <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook" width="90" height="80"></a>
+      <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="instagram" width="90" height="80"></a>
+      <a href="https://twitter.com/?lang=es"><img src="images/signo-de-twitter.png" alt="twitter" width="90" height="80"></a>
+    </section>
+
+  </section>
+
+
+  <footer>
+    <p><b>&copy; 2023 EPS MediCura - Todos los derechos reservados - Copyright © Johan Madrigal.<b></p>
+  </footer>
+
+</body>
+
+</html>
